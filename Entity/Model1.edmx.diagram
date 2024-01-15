@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="5f34d144ef91459e9564aa6be18999ff" Name="Diagram1">
+        <EntityTypeShape EntityType="BONUSASPDBModel.TBLKATEGORI" Width="1.5" PointX="1.5" PointY="10.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="BONUSASPDBModel.TBLMUSTERI" Width="1.5" PointX="0.75" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="BONUSASPDBModel.TBLPERSONEL" Width="1.5" PointX="0.75" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="BONUSASPDBModel.TBLSATIS" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="BONUSASPDBModel.TBLURUNLER" Width="1.5" PointX="0.75" PointY="7.375" IsExpanded="true" />
+        <AssociationConnector Association="BONUSASPDBModel.FK_TBLURUNLER_TBLKATEGORI" ManuallyRouted="false" />
+        <AssociationConnector Association="BONUSASPDBModel.FK_TBLSATIS_TBLMUSTERI" ManuallyRouted="false" />
+        <AssociationConnector Association="BONUSASPDBModel.FK_TBLSATIS_TBLPERSONEL" ManuallyRouted="false" />
+        <AssociationConnector Association="BONUSASPDBModel.FK_TBLSATIS_TBLPERSONEL1" ManuallyRouted="false" />
+        <AssociationConnector Association="BONUSASPDBModel.FK_TBLSATIS_TBLURUNLER" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="BONUSASPDBModel.TBLADMIN" Width="1.5" PointX="3.375" PointY="4.75" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
